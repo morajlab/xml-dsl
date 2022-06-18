@@ -1,0 +1,32 @@
+{
+  "name": "xml-dsl",
+  "version": "0.0.0",
+  "description": "A project for using XML as DSL",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morajlab/xml-dsl.git"
+  },
+  "author": {
+    "name": "Morteza Jamali",
+    "email": "mortezajamali4241@gmail.com",
+    "url": "https://moraj.ir"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morajlab/xml-dsl/issues"
+  },
+  "homepage": "https://github.com/morajlab/xml-dsl#readme",
+  "lint-staged": {
+    "**/*": "prettier -w -u",
+    "**/*.css": "stylelint"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.1",
+    "prettier": "^2.7.0",
+    "stylelint": "^14.9.1"
+  }
+}
