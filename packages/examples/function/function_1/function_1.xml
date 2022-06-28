@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Function arguments="int a,int b" public="true" returnType="int" >
+  <Return>
+    <Operator type="+" >
+      <Argument>a</Argument>
+      <Argument>b</Argument>
+    </Operator>
+  </Return>
+</Function>
